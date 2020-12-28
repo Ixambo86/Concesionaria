@@ -1,0 +1,3 @@
+insert into costumer(tipo, asunto, titulo, mensaje, frecuencia)values('Cumpleaños', '¡Feliz Cumpleaños!', 'Un feliz cumpleaños te desea Autobot', 'Gracias por elegirnos', 'Este mensaje se envía a las 9:00hs en la fecha de cumpleaños de cada cliente' );
+insert into costumer(tipo, asunto, titulo, mensaje, frecuencia)values('Bienvenida', 'Bienvenida a Autobot', 'Bienvenido a Autobot', 'Gracias por elegirnos', 'Este mensaje se envia al cliente en el instante que se da de alta' );
+insert into costumer(tipo, asunto, titulo, mensaje, frecuencia)values('Recordatorio turno', 'Usted tiene turno pendiente', 'En el día de mañana', 'Gracias por elegirnos', 'Este mensaje se envía a las 9:00hs a cada cliente que tenga un turno asignado para el día siguiente' );

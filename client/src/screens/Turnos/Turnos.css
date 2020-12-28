@@ -1,0 +1,39 @@
+.cont {
+    display: inline-block;
+}
+
+.fondo {
+    background-color: #007bff;
+    height: 60px;
+    width: 100%;
+}
+
+.titutur {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+}
+
+.almanaque {
+    background-color: white ;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 30%;
+    height: 30px;
+}
+
+.sucursales {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    height: 30px;
+    max-width: 400px;
+}
+
+.filt {
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

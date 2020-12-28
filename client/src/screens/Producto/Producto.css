@@ -1,0 +1,35 @@
+#categoriaid{
+    display: none;
+    color:red
+}
+
+#descripcionid{
+    display: none;
+    color: red;
+}
+
+#detallesid{
+    display: none;
+    color: red;
+}
+
+#stockid{
+    display: none;
+    color: red;
+}
+
+#compraminimaid{
+    display: none;
+    color: red;
+}
+
+#plazoid{
+    display: none;
+    color: red;
+}
+
+#proveedorid{
+    display: none;
+    color: red;
+}
+

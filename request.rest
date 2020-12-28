@@ -1,0 +1,62 @@
+GET http://localhost:3001/api/get_usuarios
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGUiOlsiQWRtaW5pc3RyYWRvciJdLCJpYXQiOjE2MDU4MTc3NzN9.Uo6XWKrXLJBkUNvrbC9SsJKiilPa9_MkbsC_I2gvGOE
+
+###
+
+GET http://localhost:3001/api/get_usuarios
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOlsiVXN1YXJpbyJdLCJpYXQiOjE2MDU2Njc4NzR9.vLONxdeR-9n5LGir6NxaXvHN-kO2xTIZXNV_lBu91Kk
+
+###
+
+GET http://localhost:3001/api/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGUiOlsiQWRtaW5pc3RyYWRvciJdLCJpYXQiOjE2MDQ2MTIxMjB9.5w7LatOw5jam5CzeqRUcmzkVSsT-6RZv04QcuWzc0K8
+
+###
+
+GET http://localhost:3001/api/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOlsiVXN1YXJpbyJdLCJpYXQiOjE2MDU2Njc4NzR9.vLONxdeR-9n5LGir6NxaXvHN-kO2xTIZXNV_lBu91Kk
+
+###
+
+POST http://localhost:3001/api/authenticate
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+###
+
+POST http://localhost:3001/api/marcas/get 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsInJvbGUiOlsiVXN1YXJpbyJdLCJpYXQiOjE2MDQ2MjAwMjB9.10SqG8RH0_1ZoxYWgumoMk6Nfffk2GJ82W59k7lVi5E
+Content-Type: application/json
+
+{
+    "filtro": "Ford"
+}
+
+###
+
+POST http://localhost:3001/api/solicitud_recupero
+Content-Type: application/json
+
+{
+    "username": "user"
+}
+
+###
+
+GET http://localhost:3001/api/fordenes/get
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOlsiVXN1YXJpbyJdLCJpYXQiOjE2MDU2Njc4NzR9.vLONxdeR-9n5LGir6NxaXvHN-kO2xTIZXNV_lBu91Kk
+
+###
+
+GET http://localhost:3001/api/factu/facturas_by_id_get
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOlsiVXN1YXJpbyJdLCJpYXQiOjE2MDU2Njc4NzR9.vLONxdeR-9n5LGir6NxaXvHN-kO2xTIZXNV_lBu91Kk
+Content-Type: application/json
+
+{
+    "id": "1"
+}
+###

@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    margin:0;
+    padding:0;
+    margin-bottom: 60px;
+    height: 100%;
+}
+
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+   
+}
+
+.nav {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    width: 100%;
+    text-align: justify;
+    
+
+}
+
+.navbar.menu {
+    background-color: rgb(0, 123, 255);
+    border-bottom: 2px solid black;
+}
+
+
+li{
+    display: inline-grid;
+    width: 11%;
+    text-align: center;
+}
+
+.dropdown-menu{
+    background-color: rgb(0, 123, 255);
+}
+
+
+img.menuNav{
+    height: 17px;
+    padding-bottom: 3px;
+}
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container, .container-sm {
+    max-width: 100%;
+}

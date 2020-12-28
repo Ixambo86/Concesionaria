@@ -1,0 +1,31 @@
+.fondoCost {
+    background-color: #007bff;
+    height: 60px;
+    width: 100%;
+    text-decoration-color: white;
+}
+.costum {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+}
+
+.alertcost {
+    text-align: center;
+}
+
+#msj_asunto_id{
+    display: none;
+    color:red;
+}
+
+#msj_titulo_id{
+    display: none;
+    color:red;
+}
+
+#msj_mensaje_id{
+    display: none;
+    color: red;
+}

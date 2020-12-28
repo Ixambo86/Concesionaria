@@ -1,0 +1,28 @@
+.titulo {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 24px;
+    color: white;
+}
+
+.busqueda {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: auto;
+}
+.filtro {
+    display: inline-block;
+}
+
+.filt {
+    margin-right: 10px;
+}
+
+img.menu_ayuda{
+    height: 20px;
+    padding-bottom: 3px;
+}
+
